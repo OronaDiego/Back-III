@@ -39,6 +39,6 @@ describe ('Conjunto de pruebas Calculadoras',()=>{
         const arg2 = 2;
         const resultadoEsperado = true;
         const resultado = calculadora.chekearValores(arg1,arg2);
-        expect(resultado).toBe(resultadoEsperado);
+        expect(resultado).toBe(resultadoEsperado); 
     })
 })
