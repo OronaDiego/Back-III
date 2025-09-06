@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "tsc": "tsc"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,10 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "log4js": "^6.9.1",
+    "mongoose": "^8.18.0"
   }
 }
