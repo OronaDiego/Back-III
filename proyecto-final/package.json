@@ -18,7 +18,8 @@
     "@types/joi": "17.2.3",
     "@types/log4js": "2.3.5",
     "@types/mongoose": "5.11.97",
-    "typescript": "5.9.2"
+    "ts-node": "10.9.2",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "dotenv": "17.2.2",
