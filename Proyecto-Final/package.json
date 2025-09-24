@@ -1,0 +1,29 @@
+{
+  "name": "13---practica-integradora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/joi": "^17.2.2",
+    "@types/log4js": "^0.0.33",
+    "@types/mongoose": "^5.11.96",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "log4js": "^6.9.1",
+    "mongoose": "^8.16.1"
+  }
+}
